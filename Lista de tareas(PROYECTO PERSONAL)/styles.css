@@ -1,0 +1,36 @@
+body { 
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 50px; 
+    background-color: #f4f4f4; 
+   } 
+   h1 { 
+    color: #333; 
+   } 
+   input, button { 
+    padding: 10px; 
+    font-size: 16px; 
+    margin: 5px; 
+   } 
+   #listaTareas { 
+    list-style-type: none; 
+    padding: 0; 
+    max-width: 300px; 
+    width: 100%; 
+   }
+   li { 
+    background-color: #ffffff;  border: 1px solid #ddd;  padding: 10px; 
+    margin-bottom: 5px; 
+    display: flex; 
+    justify-content: space-between;  align-items: center; 
+   } 
+   .botonEliminar { 
+    background-color: #ff4c4c;  color: #ffffff; 
+    border: none; 
+    padding: 5px; 
+    cursor: pointer; 
+    font-size: 14px; 
+   }
+   
